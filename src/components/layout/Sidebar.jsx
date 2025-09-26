@@ -21,8 +21,8 @@ const sidebarNavItems = [
     icon: LayoutDashboard
   },
   {
-    title: "Athletes",
-    href: "/athletes", 
+    title: "Defense Aspirants",
+    href: "/aspirants", 
     icon: Users
   },
   {
@@ -101,8 +101,8 @@ export default function Sidebar({ isOpen, onClose }) {
           
           <div className="border-t p-4">
             <div className="text-xs text-muted-foreground">
-              <p className="font-medium">Sports Authority of India</p>
-              <p>Talent Assessment Platform</p>
+              <p className="font-medium"></p>
+              <p>Army Recruitment & Youth Assessment Dashboard</p>
             </div>
           </div>
         </div>

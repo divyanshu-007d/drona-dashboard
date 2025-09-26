@@ -2,7 +2,7 @@
 
 export const kpiData = [
   {
-    title: "Total Athletes",
+    title: "Total Aspirants",
     value: "15,420",
     change: "+12.5%",
     trend: "up",
@@ -279,7 +279,7 @@ export const adminUsers = [
   {
     id: "USR001",
     name: "Dr. Rajesh Kumar",
-    email: "rajesh.kumar@sai.gov.in",
+    email: "rajesh.kumar@army.gov.in",
     role: "Super Admin",
     department: "Sports Medicine",
     lastLogin: "2024-09-17T08:30:00Z",
@@ -288,7 +288,7 @@ export const adminUsers = [
   {
     id: "USR002", 
     name: "Ms. Sunita Rao",
-    email: "sunita.rao@sai.gov.in",
+    email: "sunita.rao@army.gov.in",
     role: "Reviewer",
     department: "Talent Assessment",
     lastLogin: "2024-09-16T16:45:00Z",
@@ -297,7 +297,7 @@ export const adminUsers = [
   {
     id: "USR003",
     name: "Dr. Amit Sharma",
-    email: "amit.sharma@sai.gov.in",
+    email: "amit.sharma@army.gov.in",
     role: "Regional Admin",
     department: "North Region",
     lastLogin: "2024-09-15T11:20:00Z",

@@ -7,8 +7,8 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "Drona Dashboard - SAI Talent Assessment",
-  description: "Official dashboard for Sports Authority of India talent assessment platform",
+  title: "Arya Dashboard",
+  description: "Army Recruitment & Youth Assessment Dashboard",
 };
 
 export default function RootLayout({ children }) {

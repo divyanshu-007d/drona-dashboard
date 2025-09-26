@@ -24,10 +24,10 @@ export default function Header({ onMenuClick }) {
             <Menu className="h-6 w-6" />
           </Button>
           <div className="flex items-center space-x-3">
-            <div className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center">
-              <span className="text-white font-bold text-sm">SAI</span>
+            <div className="w-8 h-8 bg-gradient-to-br from-orange-500 to-green-600 rounded-full flex items-center justify-center">
+              <span className="text-white font-bold text-sm">🇮🇳</span>
             </div>
-            <h1 className="text-xl font-semibold text-gray-900">Drona Dashboard</h1>
+            <h1 className="text-xl font-semibold text-gray-900">ARYA Dashboard</h1>
           </div>
         </div>
         
@@ -53,7 +53,7 @@ export default function Header({ onMenuClick }) {
                 <div className="flex flex-col space-y-1">
                   <p className="text-sm font-medium leading-none">Admin User</p>
                   <p className="text-xs leading-none text-muted-foreground">
-                    admin@sai.gov.in
+                    admin@army.gov.in
                   </p>
                 </div>
               </DropdownMenuLabel>

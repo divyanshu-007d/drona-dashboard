@@ -87,7 +87,7 @@ export default function Analytics() {
             <Card>
               <CardHeader>
                 <CardTitle>Performance Distribution</CardTitle>
-                <CardDescription>Athletes grouped by performance score ranges</CardDescription>
+                <CardDescription>Aspirants grouped by performance score ranges</CardDescription>
               </CardHeader>
               <CardContent>
                 <div className="h-[300px]">
@@ -107,7 +107,7 @@ export default function Analytics() {
             <Card>
               <CardHeader>
                 <CardTitle>Monthly Growth</CardTitle>
-                <CardDescription>Athlete registrations over time</CardDescription>
+                <CardDescription>Aspirants registrations over time</CardDescription>
               </CardHeader>
               <CardContent>
                 <div className="h-[300px]">
@@ -180,7 +180,7 @@ export default function Analytics() {
                           </div>
                           <div>
                             <p className="font-medium">{region.state}</p>
-                            <p className="text-sm text-gray-500">{region.athletes} athletes</p>
+                            <p className="text-sm text-gray-500">{region.athletes} Aspirants</p>
                           </div>
                         </div>
                         <div className="text-right">
@@ -201,7 +201,7 @@ export default function Analytics() {
             <Card>
               <CardHeader>
                 <CardTitle>State-wise Participation</CardTitle>
-                <CardDescription>Number of registered athletes by state</CardDescription>
+                <CardDescription>Number of registered Aspirants by state</CardDescription>
               </CardHeader>
               <CardContent>
                 <div className="h-[400px]">
@@ -211,7 +211,7 @@ export default function Analytics() {
                       <XAxis dataKey="state" angle={-45} textAnchor="end" height={80} />
                       <YAxis />
                       <Tooltip content={<CustomTooltip />} />
-                      <Bar dataKey="athletes" fill="#1e40af" />
+                      <Bar dataKey="Aspirants" fill="#1e40af" />
                     </BarChart>
                   </ResponsiveContainer>
                 </div>
@@ -250,7 +250,7 @@ export default function Analytics() {
                   <thead>
                     <tr className="border-b">
                       <th className="text-left py-3 px-4">State</th>
-                      <th className="text-left py-3 px-4">Athletes</th>
+                      <th className="text-left py-3 px-4">Aspirants</th>
                       <th className="text-left py-3 px-4">Tests Completed</th>
                       <th className="text-left py-3 px-4">Avg Performance</th>
                       <th className="text-left py-3 px-4">Growth</th>
@@ -286,7 +286,7 @@ export default function Analytics() {
             <Card>
               <CardHeader>
                 <CardTitle>Age Group Distribution</CardTitle>
-                <CardDescription>Athletes by age groups and gender</CardDescription>
+                <CardDescription>Aspirants by age groups and gender</CardDescription>
               </CardHeader>
               <CardContent>
                 <div className="h-[300px]">
