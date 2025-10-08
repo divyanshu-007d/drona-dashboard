@@ -8,7 +8,7 @@ export default function Home() {
 
   useEffect(() => {
     // Redirect to army dashboard on page load
-    router.push('/dashboard');
+    router.push('/dashboard'); 
   }, [router]);
 
   return (
